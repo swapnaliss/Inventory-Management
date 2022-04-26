@@ -72,7 +72,8 @@ class Dashboard extends React.Component {
         return (
             <Aux>
                 <Row>
-                    <Col md={6} xl={4}>
+                    <p>dashboard</p>
+                    {/* <Col md={6} xl={4}>
                         <Card>
                             <Card.Body>
                                 <h6 className='mb-4'>Daily Sales</h6>
@@ -401,7 +402,7 @@ class Dashboard extends React.Component {
                                 {tabContent}
                             </Tab>
                         </Tabs>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Aux>
         );

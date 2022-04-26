@@ -13,89 +13,38 @@ export default {
           url: "/dashboard",
           icon: "feather icon-home",
         },
+      ],
+    },
+
+    {
+      id: "inventory",
+      title: "Inventory",
+      type: "group",
+      icon: "icon-group",
+      children: [
         {
-          id: "dashboard",
-          title: "Inventory",
+          id: "Items",
+          title: "Items",
           type: "item",
-          url: "/inventory",
-          icon: "feather icon-home",
+          url: "/items",
+          icon: "feather icon-file-text",
+        },
+        {
+          id: "Item Group",
+          title: "Item Group",
+          type: "item",
+          icon: "feather icon-server",
+          url: "",
+        },
+        {
+          id: "Inventory Adjustments",
+          title: "Inventory Adjustments",
+          type: "item",
+          icon: "feather icon-server",
+          url: "/forms/tables/bootstrap",
         },
       ],
     },
-    // {
-    //     id: 'ui-element',
-    //     title: 'UI ELEMENT',
-    //     type: 'group',
-    //     icon: 'icon-ui',
-    //     children: [
-    //         {
-    //             id: 'basic',
-    //             title: 'Component',
-    //             type: 'collapse',
-    //             icon: 'feather icon-box',
-    //             children: [
-    //                 {
-    //                     id: 'button',
-    //                     title: 'Button',
-    //                     type: 'item',
-    //                     url: '/basic/button'
-    //                 },
-    //                 {
-    //                     id: 'badges',
-    //                     title: 'Badges',
-    //                     type: 'item',
-    //                     url: '/basic/badges'
-    //                 },
-    //                 {
-    //                     id: 'breadcrumb-pagination',
-    //                     title: 'Breadcrumb & Pagination',
-    //                     type: 'item',
-    //                     url: '/basic/breadcrumb-paging'
-    //                 },
-    //                 {
-    //                     id: 'collapse',
-    //                     title: 'Collapse',
-    //                     type: 'item',
-    //                     url: '/basic/collapse'
-    //                 },
-    //                 {
-    //                     id: 'tabs-pills',
-    //                     title: 'Tabs & Pills',
-    //                     type: 'item',
-    //                     url: '/basic/tabs-pills'
-    //                 },
-    //                 {
-    //                     id: 'typography',
-    //                     title: 'Typography',
-    //                     type: 'item',
-    //                     url: '/basic/typography'
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     id: 'ui-forms',
-    //     title: 'Forms & Tables',
-    //     type: 'group',
-    //     icon: 'icon-group',
-    //     children: [
-    //         {
-    //             id: 'form-basic',
-    //             title: 'Form Elements',
-    //             type: 'item',
-    //             url: '/forms/form-basic',
-    //             icon: 'feather icon-file-text'
-    //         },
-    //         {
-    //             id: 'bootstrap',
-    //             title: 'Table',
-    //             type: 'item',
-    //             icon: 'feather icon-server',
-    //             url: '/tables/bootstrap'
-    //         }
-    //     ]
-    // },
     // {
     //     id: 'chart-maps',
     //     title: 'Chart & Maps',
